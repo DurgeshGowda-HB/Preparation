@@ -13,9 +13,6 @@ CREATE TABLE students (
 );
 
 
-DESC students;
-
-
 INSERT INTO students (student_id, name, branch, age, marks, city) VALUES
 (1, 'Nithin', 'CSE', 20, 85.50, 'Bangalore'),
 (2, 'Ravi', 'ECE', 21, 78.00, 'Mysore'),
