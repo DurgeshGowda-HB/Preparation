@@ -18,7 +18,7 @@ public class twosum__zerotoend {
 	static int[] twosum(int arr[], int target) {
 		
 		if(arr.length<2) {
-			System.out.println("Array should contain atleast two elements");
+			System.out.println("Array should contain atleast two elements to proccess!");
 			return new int[] {};
 		}
 		
