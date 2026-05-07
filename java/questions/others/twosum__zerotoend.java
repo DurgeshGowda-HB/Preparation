@@ -1,4 +1,4 @@
-package questions;
+package questions.others;
 import java.util.Arrays;
 
 public class twosum__zerotoend {
