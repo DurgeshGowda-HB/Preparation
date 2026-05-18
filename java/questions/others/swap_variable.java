@@ -1,4 +1,4 @@
-package questions;
+package questions.others;
 
 public class swap_variable {
     public static void main(String[] args) {
