@@ -1,4 +1,4 @@
-package questions;
+package questions.others;
 
 public class reverse {
 
