@@ -1,4 +1,4 @@
-package questions;
+package questions.others;
 import java.util.Scanner;
 public class remove_dup {
     public static void main(String[] args){
