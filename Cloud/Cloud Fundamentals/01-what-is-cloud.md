@@ -49,7 +49,6 @@ My App → Buy Server → Setup Infrastructure → Deploy
 
 **With AWS**
 
-
 My App → AWS Server → Deploy → Users
 
 
