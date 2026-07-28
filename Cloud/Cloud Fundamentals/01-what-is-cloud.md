@@ -1,4 +1,4 @@
-### What is Cloud Computing?
+### What is Cloud Computing ?
 
 > **Cloud Computing = On-demand delivery of IT resources over the internet with pay-as-you-go pricing.**
 
