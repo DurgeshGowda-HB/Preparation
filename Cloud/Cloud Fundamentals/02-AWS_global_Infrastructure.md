@@ -13,8 +13,7 @@ AWS uses Global Infrastructure to provide:
 - Low Latency
 - Better Performance
 
-<img width="800" height="450" alt="image" src="images/AWS-global-Infrastructure.png" />
-
+<img src="../images/AWS-global-Infrastructure.png" alt="AWS global infrastructure" width="80%" height="400">
 
 <h2>1. Region</h2>
 
