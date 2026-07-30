@@ -2,7 +2,7 @@
 
 AWS follows a **Shared Responsibility Model**, where both AWS and the customer are responsible for security.
 
-### AWS Responsibility (Security **OF** the Cloud)
+-> AWS Responsibility (Security **OF** the Cloud)
 
 AWS manages the cloud infrastructure, including:
 
@@ -12,7 +12,7 @@ AWS manages the cloud infrastructure, including:
 - Data Centers
 - Regions & Availability Zones
 
-### Customer Responsibility (Security **IN** the Cloud)
+-> Customer Responsibility (Security **IN** the Cloud)
 
 Customers are responsible for:
 
