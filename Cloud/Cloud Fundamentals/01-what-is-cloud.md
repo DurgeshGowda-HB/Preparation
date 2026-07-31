@@ -39,7 +39,7 @@ AWS builds and manages these data centers, so customers don't have to build thei
 | Microsoft | Azure |
 | Google    | GCP   |
 
-## 💡 Simple Example
+##  Simple Example
 
 Suppose I create a Spring Boot application.
 
