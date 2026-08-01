@@ -47,16 +47,15 @@ Checks Permissions
    ├── Allowed ✅
    └── Denied ❌
 ```
-<img src="images/core-AWS-services/IAM/what_does_IAM_do.png" width="80%" height="400">
 
 
-<img src="../images/core-AWS-services/IAM/core.png" width="80%" height="400">
+<img src="../images/core-AWS-services/core.png" width="80%" height="400">
 <img src="../images/core-AWS-services/IAM/what_does_IAM_do.png" width="80%" height="400">
 <img src="../images/core-AWS-services/IAM/prob_it_sloves.png" width="80%" height="400">
 <img src="../images/core-AWS-services/IAM/implicit_deny.png" width="80%" height="400">
+<img src="../images/core-AWS-services/IAM/explicit_allow.png" width="80%" height="400">
 <img src="../images/core-AWS-services/IAM/explicit_deny.png" width="80%" height="400">
 
-<img src="../images/core-AWS-services/IAM/expliciy_allow.png" width="80%" height="400">
 <img src="../images/core-AWS-services/IAM/ex.png" width="80%" height="400">
 
 
