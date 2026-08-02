@@ -27,7 +27,7 @@ Cloud approach : Choose Resources → Deploy Application → Pay for Usage
 
 -> Data Center
 
-> A **data center** is a physical facility containing servers, storage, networking, power, and cooling infrastructure.
+> A data center is a physical facility containing servers, storage, networking, power, and cooling infrastructure.
 
 AWS builds and manages these data centers, so customers don't have to build their own
 
