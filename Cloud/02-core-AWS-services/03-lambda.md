@@ -85,6 +85,13 @@ AWS charges based on:
 
 > **No running server = No server cost.**
 
+<img src="../images/core-AWS-services/lambda/what-does-lambda-solves.png" width="80%" height="400">
+<img src="../images/core-AWS-services/lambda/lambda-ex.png" width="80%" height="400">
+<img src="../images/core-AWS-services/lambda/lambda-keep-in-mind.png" width="80%" height="400">
+<img src="../images/core-AWS-services/lambda/cost-for-lambda.png" width="80%" height="400">
+
+
+
 <h2>Key Takeaways</h2>
 
 - Lambda is a **Serverless Compute** service.
