@@ -30,6 +30,7 @@ public class find_first_last_occurence_2{
             int mid = left + (right - left) / 2;
 
             if(target == nums[mid]){
+                // found so check if there element present in left
                 first = mid;
                 right = mid - 1;
             }else if(target > nums[mid]){
@@ -54,6 +55,7 @@ public class find_first_last_occurence_2{
             int mid = left + (right - left) / 2;
 
             if(target == nums[mid]){
+                //found check if there element present in right
                 last = mid;
                 left = mid + 1;
             }else if(target > nums[mid]){
