@@ -7,7 +7,7 @@ Amazon VPC (Virtual Private Cloud) is a service that allows you to create a **pr
 When deploying applications in AWS, we need:
 
 - Network Isolation
-- Secure Communication
+- Secure Communication 
 - Controlled Access
 - Protection from Unauthorized Users
 
