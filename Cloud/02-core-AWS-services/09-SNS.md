@@ -10,7 +10,6 @@
 
 <img src="../images/core-AWS-services/SNS/cost.png" width="80%" height="400">
 
-
 <h3>SNS Standard vs FIFO</h3>
 
 | Feature | Standard SNS | FIFO SNS |
