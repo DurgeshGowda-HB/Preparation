@@ -1,6 +1,6 @@
 package searching.binary;
 
-public class min_in_rorated_sorted_array {
+public class find_min_in_rotated_sorted_array {
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
