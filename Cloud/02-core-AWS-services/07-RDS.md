@@ -163,7 +163,7 @@ AWS does all of this for you with RDS.
 <p>
 In this practice exercise, we created a VPC with two public subnets and two private subnets. We launched an EC2 instance inside the public subnet and created an RDS database inside the private subnet. Both the EC2 instance and the RDS database reside within the same VPC. We can connect to the EC2 instance directly from a laptop because it has internet access. However, we cannot connect to the RDS database directly from the laptop. This is because the RDS database is placed in a private subnet with public access disabled. The RDS database can only be accessed securely through the EC2 instance, shielding it from the public internetThe Complete Architecture</p>
 
-This is the diagram you should remember:
+This is the architecture we are building:
 
 ```
                          INTERNET
@@ -290,3 +290,6 @@ inside the ec2 run this commond
 ```
 sudo dnf install mariadb105 -y
 ```
+next get the endpoint of rds and put it in the terminal and enter password and you are inside the db
+
+and if anything does click mind see the full architecture 
