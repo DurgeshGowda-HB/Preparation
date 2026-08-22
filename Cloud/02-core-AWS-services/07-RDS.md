@@ -201,8 +201,8 @@ use this command to get correct IPV4 format ip address
 curl ifconfig.me
 ```
 
--> Why EC2 and RDS are in the Same VPC
-
+<h2>-> Why EC2 and RDS are in the Same VPC
+</h2>
 We put:
 
 EC2 → demo-vpc
@@ -223,4 +223,70 @@ demo-vpc
 │
 └── Private Subnet
      └── RDS
+```
+
+<h2>-> DB Subnet Group (this is insdide the RDS)
+</h2>
+This was one of the biggest concepts we learned.
+A DB subnet group is a collection of existing subnets that RDS can use.
+It does not create new subnets.
+
+We already had:
+
+Private Subnet 1
+Private Subnet 2
+
+Then created:
+```
+DB Subnet Group
+│
+├── Private Subnet 1
+└── Private Subnet 2
+```
+The subnets were in different Availability Zones:
+
+Private Subnet 1 → AZ-A
+
+Private Subnet 2 → AZ-B
+
+Simple memory trick
+
+Subnet
+= Actual network
+
+DB Subnet Group
+= Collection of subnets for RDS
+
+<h2>-> we created two separate security group for ec2 and rds
+</h2>
+
+For the EC2 instance, we granted internet access restricted only to my specific IP address. For the RDS security, we added a rule to its security group that references the security group attached to the EC2 instance. This configuration allows the EC2 instance to be accessed over the internet from my IP, while ensuring the RDS database can only be accessed through that specific EC2 instance
+
+
+```EC2
+Security Group
+sec-for-ec2
+
+RDS
+Security Group (here we add mysql/oracle and instead of ip we give the ec2 security group)
+sec-for-rds
+```
+
+```
+EC2 Security Group
+│
+└── SSH : 22
+    Source → Your Laptop IP
+
+RDS Security Group
+│
+└── MySQL : 3306
+    Source → EC2 Security Group
+```
+
+<h2>After doing all this</h2>
+
+inside the ec2 run this commond
+```
+sudo dnf install mariadb105 -y
 ```
