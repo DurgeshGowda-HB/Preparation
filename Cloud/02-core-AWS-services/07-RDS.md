@@ -158,3 +158,36 @@ AWS does all of this for you with RDS.
 - DynamoDB is not "better" than RDS.
 - Choose the database based on the application's **data model and access pattern**.
 - An application can use **both RDS and DynamoDB** when different workloads require different database types.
+
+
+
+```
+                         INTERNET
+                            │
+                            │
+                       Your Laptop
+                            │
+                         SSH : 22
+                            │
+                            ▼
+                  ┌──────────────────┐
+                  │       EC2        │
+                  │                  │
+                  │  Public Subnet   │
+                  │                  │
+                  │ SG: sec-for-ec2  │
+                  └────────┬─────────┘
+                           │
+                      MySQL : 3306
+                           │
+                           ▼
+                  ┌──────────────────┐
+                  │       RDS        │
+                  │                  │
+                  │  Private Subnet  │
+                  │                  │
+                  │ SG: sec-for-rds  │
+                  └──────────────────┘
+
+              Both are inside the same VPC
+```
