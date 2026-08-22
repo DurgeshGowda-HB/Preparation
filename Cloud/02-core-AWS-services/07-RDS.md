@@ -159,7 +159,11 @@ AWS does all of this for you with RDS.
 - Choose the database based on the application's **data model and access pattern**.
 - An application can use **both RDS and DynamoDB** when different workloads require different database types.
 
+<h2>-> practice </h2>
+<p>
+In this practice exercise, we created a VPC with two public subnets and two private subnets. We launched an EC2 instance inside the public subnet and created an RDS database inside the private subnet. Both the EC2 instance and the RDS database reside within the same VPC. We can connect to the EC2 instance directly from a laptop because it has internet access. However, we cannot connect to the RDS database directly from the laptop. This is because the RDS database is placed in a private subnet with public access disabled. The RDS database can only be accessed securely through the EC2 instance, shielding it from the public internetThe Complete Architecture</p>
 
+This is the diagram you should remember:
 
 ```
                          INTERNET
