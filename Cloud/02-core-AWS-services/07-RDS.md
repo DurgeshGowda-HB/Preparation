@@ -195,3 +195,32 @@ This is the diagram you should remember:
 
               Both are inside the same VPC
 ```
+
+use this command to get correct IPV4 format ip address
+```
+curl ifconfig.me
+```
+
+-> Why EC2 and RDS are in the Same VPC
+
+We put:
+
+EC2 → demo-vpc
+RDS → demo-vpc
+
+because they need to communicate through the VPC's private networking.
+
+But remember:
+
+> Same VPC does not mean same subnet.
+
+Our design was:
+```
+demo-vpc
+│
+├── Public Subnet
+│    └── EC2
+│
+└── Private Subnet
+     └── RDS
+```
