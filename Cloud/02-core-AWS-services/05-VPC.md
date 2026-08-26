@@ -8,7 +8,6 @@ When deploying applications in AWS, we need:
 
 - Network Isolation
 - Secure Communication 
-- Controlled Access
 - Protection from Unauthorized Users
 
 VPC provides a secure environment for AWS resources.
