@@ -10,7 +10,8 @@ public class cyclic_sort {
     }
 
     static int[] cyclic(int[] arr){
-
+        // if the value is not on it's correct index and place it in correct 
+        // array must range of 1 to N or 0 to N not in random range
         int i=0;
         while(i<arr.length){
             int correct_index = arr[i]-1;
