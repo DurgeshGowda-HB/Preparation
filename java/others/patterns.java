@@ -7,6 +7,7 @@ public class patterns{
         pattern3(5);
     }
 
+    // here just star pattern printing 
     static void pattern1(int n){
         for(int row=1; row<=n; row++){
             for(int cal=1; cal<=n; cal++){
