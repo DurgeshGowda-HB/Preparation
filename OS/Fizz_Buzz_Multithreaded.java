@@ -23,7 +23,7 @@ class FizzBuzz {
         this.n = n;
     }
 
-    // ---------------- FIZZ THREAD ----------------
+    // ------ FIZZ THREAD --------
     public void fizz(Runnable printFizz) throws InterruptedException {
 
         while (true) {
