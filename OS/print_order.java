@@ -56,7 +56,7 @@ class print_order {
 
     public void third(Runnable printThird)
             throws InterruptedException {
-
+// lock 3
         lock.lock();
 
         try {
