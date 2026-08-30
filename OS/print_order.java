@@ -30,7 +30,7 @@ class print_order {
 
     public void second(Runnable printSecond)
             throws InterruptedException {
-
+// lock 2
         lock.lock();
 
         try {
