@@ -10,7 +10,7 @@ class print_order {
     private int turn = 0;
 
     public void first(Runnable printFirst) {
-
+    //lock 1
         lock.lock();
 
         try {
