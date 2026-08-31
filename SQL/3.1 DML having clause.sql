@@ -21,7 +21,7 @@ INSERT INTO students VALUES
 
 select * from students;
 
---Example 1: Using the WHERE Clause--
+--Example 1: Using the WHERE Clause
 
 select * from students
 where stu_fees<3000;
