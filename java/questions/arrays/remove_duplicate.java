@@ -10,17 +10,17 @@ public class remove_duplicate {
 
     static int remove(int[] arr) {
 		//only if array is sorted
-		int count = 0; 
+		int slow = 0; 
 		
-		for(int i=1; i<arr.length; i++) {
+		for(int fast=1; fast<arr.length; fast++) {
 			
-			if(arr[count] != arr[i]) {
-				count ++;
-				arr[count] = arr[i];
+			if(arr[fast] != arr[slow]) {
+				slow ++;
+				arr[slow] = arr[fast];
 			}
 		}
 		
-		return count + 1; //return the index of unique value print till there
+		return slow + 1; //return the index of unique value print till there
 		
 	}
 
