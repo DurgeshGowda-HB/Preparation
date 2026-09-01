@@ -11,6 +11,9 @@ public class sort_color {
 		
 	}
 	static int[] sort(int[] arr) {
+
+		// time - O(N)
+		// space = O(1)
 		
 		int lo= 0;
 		int mid =0;
