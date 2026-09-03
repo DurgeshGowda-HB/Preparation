@@ -2,7 +2,7 @@ show databases;
 use student;
 show tables;
 select * from stu_info
-
+-- DDL Data Manupulation language
 #DML commands is used to mangage and modify the data inside a table
 # * It does not chnage the table structure
 # * It only works with the data (row/records)
